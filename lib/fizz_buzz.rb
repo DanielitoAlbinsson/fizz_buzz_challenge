@@ -19,3 +19,7 @@ end
 def divisible_by_fifteen?(number)
   number % 15 == 0
 end
+
+def has_zero_reminder(number, divider)
+  number % divider == 0
+end
